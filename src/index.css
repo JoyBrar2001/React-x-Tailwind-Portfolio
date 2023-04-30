@@ -13,8 +13,12 @@
         @apply px-4 py-2 cursor-pointer;
     }
 
+    .heading-outline{
+        @apply text-4xl font-bold inline border-b-4 border-pink-600;
+    }
+
     .navbar-top-items{
-        @apply transition-all duration-200 hover:scale-110 hover:bg-white hover:text-black rounded-lg;
+        @apply transition-all duration-200 hover:scale-110 hover:bg-pink-600 rounded-lg;
     }
 
     .social-box{
@@ -24,4 +28,20 @@
     .social-a{
         @apply flex justify-between items-center w-full text-gray-300;
     }
+}
+
+.content-div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    transition: 0.5s ease-in-out;
+}
+
+.content-div:hover{
+    background-image: linear-gradient(
+        to right,
+        rgba(112,157,255,0.8),
+        hsla(242, 74%, 61%, 0.8)
+    )!important;
 }

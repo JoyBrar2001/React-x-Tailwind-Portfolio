@@ -60,14 +60,14 @@ const Skills = () => {
 
   return (
     <div id="skills" className='bg-[#0a182f] text-gray-300'>
-      <div className='w-full h-full md:max-w-[700px] lg:max-w-[1000px] mx-auto justify-center flex flex-col p-4'>
+      <div className='w-full h-full max-h-screen md:max-w-[700px] lg:max-w-[1000px] mx-auto justify-center flex flex-col p-4'>
         <div>
-          <p className='text-4xl inline font-bold border-b-4 border-pink-600 '>Experience</p>
+          <p className='heading-outline'>Experience</p>
           <p className='py-4'>// These are the Technologies I've worked with.</p>
         </div>
 
         <div className='w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 text-center py-4 gap-4'>
-          
+
           {
             technologies.map((technology, index) => {
               return <TechCard title={technology.title} icon={technology.icon} />
