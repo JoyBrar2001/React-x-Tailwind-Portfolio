@@ -19,11 +19,11 @@ const Navbar = () => {
 
 
       <ul className='hidden md:flex'>
-        <li className='navbar-top-items'>Home</li>
-        <li className='navbar-top-items'>About</li>
-        <li className='navbar-top-items'>Skills</li>
-        <li className='navbar-top-items'>Work</li>
-        <li className='navbar-top-items'>Contact</li>
+        <li className='navbar-top-items'><a href="#home">Home</a></li>
+        <li className='navbar-top-items'><a href="#about">About</a></li>
+        <li className='navbar-top-items'><a href="#skills">Skills</a></li>
+        <li className='navbar-top-items'><a href="#work">Work</a></li>
+        <li className='navbar-top-items'><a href="#contact">Contact</a></li>
       </ul>
 
       <div onClick={handleClick} className='md:hidden z-10'>

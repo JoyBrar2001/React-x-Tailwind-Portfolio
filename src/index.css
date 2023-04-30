@@ -45,3 +45,20 @@
         hsla(242, 74%, 61%, 0.8)
     )!important;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: gray;
+    
+  }
